@@ -1,0 +1,24 @@
+configs:
+- id: team25
+  type:
+    settings:
+      schema: builtin:ownership.teams
+      scope: environment
+  config:
+    name: team25
+    template: appteam.json
+    parameters:
+      descr: LiquidXChange25
+      team_id: team25
+      development: true
+      security: false
+      operations: true
+      infrastructure: false
+      lineOfBusiness: false
+      slackChannel: somewhere
+      slackURL: https://somewhere.slack.com/archives/team25
+      email: LiquidXChange25@liquid-reply.com
+      addInfoKey: costcode
+      addInfoValue: team25
+      addInfoUrl: https://example.com/team25
+    skip: false
