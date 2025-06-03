@@ -14,4 +14,4 @@ data:
   # Enables application status badge feature
   statusbadge.enabled: "true"
   context: |
-    argocdUrl: "https://potential-space-disco-qvqp7pvjr6r2x5v4-30100.GITHUB_CODESPACES_PORT_FORWARDING_DOMAIN_PLACEHOLDER"  
+    argocdUrl: "https://potential-space-disco-qvqp7pvjr6r2x5v4-30100.app.github.dev"  
