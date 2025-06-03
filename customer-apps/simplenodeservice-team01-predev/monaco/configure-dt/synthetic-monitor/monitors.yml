@@ -1,0 +1,14 @@
+configs:
+- id: simplenodeservice-team01-predev_synthetic
+  config:
+    name: "Healthcheck simplenodeservice-team01-predev"
+    parameters:
+      baseUrl: "https://potential-space-disco-qvqp7pvjr6r2x5v4-80.app.github.dev/simplenodeservice-team01-predev"
+      frequencyMin: "1"
+      enabled: "true"
+      geoLocation: "GEOLOCATION-45AB48D9D6925ECC"
+      teamIdentifier: "team01"
+    template: health-check-http.json
+    skip: false
+  type:
+    api: synthetic-monitor
